@@ -1,7 +1,7 @@
-from typing import List
+from typing import List, Tuple
 
 
-def viagem(hoteis: List[int]):
+def viagem(hoteis: List[int]) -> Tuple[List[int], List[int]]:
     n = len(hoteis)
     paradas_anteriores = [-1] * n
     reclamacoes = [-1] * n
